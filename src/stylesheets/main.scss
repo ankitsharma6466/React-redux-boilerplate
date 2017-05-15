@@ -2,6 +2,11 @@
 @import "partials/grid";
 
 body{
+  font: {
+    family: 'Open Sans', sans-serif;
+    size: $font-base;
+    weight: 400;
+  };
   margin: 0;
   padding: 0;
   background-color: $backgroundColor;
