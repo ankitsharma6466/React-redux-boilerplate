@@ -1,0 +1,8 @@
+@import "partials/_variables.scss";
+@import "partials/grid";
+
+body{
+  margin: 0;
+  padding: 0;
+  background-color: $backgroundColor;
+}
