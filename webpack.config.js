@@ -28,6 +28,15 @@ module.exports = {
       {
         test: /\.css$/,
         loaders: ['style', 'css'],
+      },
+      {
+        test: /\.jsx?$/,
+        exclude: /node_modules/,
+        loader: 'babel-loader',
+        query: {
+          presets: ['react', 'es2015', 'stage-3'],
+          plugins: ['transform-class-properties', 'transform-decorators-legacy']
+        }
       }
     ],
   },

@@ -1,4 +1,5 @@
 var webpack = require("webpack");
+var constants = require("src/utils/constants");
 var ExtractTextPlugin = require('extract-text-webpack-plugin');
 module.exports = require('./webpack.config.js');    // inherit from the main config file
 
@@ -12,7 +13,7 @@ module.exports.entry = [
 module.exports.plugins.push(
   new webpack.DefinePlugin({
     'process.env': {
-      NODE_ENV: JSON.stringify('production'),
+      NODE_ENV: JSON.stringify(constants.environment.prod),
     }
   })
 );

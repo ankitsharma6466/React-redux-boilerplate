@@ -1,6 +1,22 @@
-$background-color: #f1f1f1 !default;
 
+// Theme ============================
+
+//Colors
+$color-primary: #00adb7 !default;
+$color-secondary: #f1f1f1 !default;
+$color-background: #00adb7 !default;
+$color-font-primary: #424242 !default;
+$color-font-secondary: #646464 !default;
+$color-font-highlight: $color-primary !default;
+
+//Fonts
 $font-base: 14px !default;
+$font-small: 12px !default;
+$font-medium: 16px !default;
+$font-large: 20px !default;
+$font-xlarge: 24px !default;
+$font-weight-base: 400;
+$font-weight-bold: 600;
 
 // Grid
 $num-cols: 12 !default;
