@@ -1,0 +1,33 @@
+.btn{
+  display: inline-block;
+  padding: 16px 24px;
+  font-size: $font-medium;
+  text-transform: uppercase;
+  font-weight: $font-weight-bold;
+  background-color: #cccccc;
+  border-radius: 4px;
+  color: $color-font-primary;
+  box-shadow: 0 0 1px 1px #737373;
+  cursor: pointer;
+  text-align: center;
+
+  &.rounded{
+    border-radius: 50px;
+    padding: 16px 32px;
+    background-color: #000;
+    color: $color-font-highlight;
+  }
+
+  &.ghost{
+    border-radius: 50px;
+    padding: 16px 32px;
+    background-color: transparent;
+    color: $color-font-highlight;
+    border: 2px solid $color-font-highlight;
+    box-shadow: none;
+  }
+
+  &.full-width{
+    display: block !important;
+  }
+}
